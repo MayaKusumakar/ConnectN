@@ -1,8 +1,8 @@
-CONNECT N
+# CONNECT N
 
 Write a program to implement the game connect-n. Connect-n is like Connect-4 but the size of the board the number of pieces in a row needed to win are user parameters. If you have never played Connect-4 before you can play it here: https://www.mathsisfun.com/games/connect4.html. The basic gist of the game is that each player takes a turn dropping one of their pieces into a column. Pieces land on top of pieces already played in that column. Each player is trying to get n pieces in a row either vertically, horizontally or diagonally. The game ends if either player gets n pieces in a row or the board becomes full.
 
-Implementation Details:
+## Implementation Details:
 Your program should accept 3 command-line arguments
 The number of rows on the board
 The number of columns on the board
@@ -16,7 +16,8 @@ Player 2's pieces are represented by O
 That's a capital Oh and not a zero
 Player 1 always plays first
 After the game is over a winner should be declared if there is one and if there is no winner a tie should be declared
-Assumptions
+
+## Assumptions
 Input will NOT always be valid.
 
 If the user does not enter enough arguments, too many arguments or invalid values your program should complain about the error made and then show the user how to call your program and then terminate
@@ -24,12 +25,13 @@ If the user does not enter enough arguments, too many arguments or invalid value
 Usage connectn.out num_rows num_columns number_of_pieces_in_a_row_needed_to_win
 If invalid input is entered while your program is running you should keep asking the user for input until they enter valid input.
 
-Valid Input
+## Valid Input
 Number of rows: An integer greater than 0
 Number of columns: An integer greater than 0
 Number of pieces in a row needed to win: An integer greater than 0
 User Move: An integer specifying a column between 0 and the number of columns - 1 that is not already full
-Requirements
+
+## Requirements
 Must be made of at least 3.c files and 2.h files
 There must be a comment at the top of your program describing what it does
 Each function in your program
