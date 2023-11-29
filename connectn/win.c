@@ -187,4 +187,3 @@ bool isGameOver(char **board, char piece, int numRows, int numCols, int numToWin
 {
   return isWin(board, piece, numRows, numCols, numToWin) || isTie(board, numRows, numCols, numToWin);
 }
-
