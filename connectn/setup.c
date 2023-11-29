@@ -41,6 +41,7 @@ void displayBoard(char **board, int numRows, int numCols) {
   for (int i = 0; i < numCols; i++) {
     printf(" %d", i);
   }
+  printf("\n");
 }
 
 void cleanup(char** *board, int numRows) {
